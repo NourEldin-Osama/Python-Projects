@@ -1,4 +1,5 @@
 # Image Colorization Program
+# First You should run "pip install -r requirements.txt" in your shell
 import requests  # we will use requests to call API
 import os  # To Get The Path
 
