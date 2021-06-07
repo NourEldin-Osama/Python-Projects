@@ -2,7 +2,7 @@
 import wordcloud
 from matplotlib import pyplot as plt
 
-with open('Bring Back My Brain!.txt') as file:
+with open(input('Enter Text book file name: ')) as file:
     text = file.read()
 
 
