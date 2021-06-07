@@ -1,3 +1,4 @@
+# First You should run "pip install -r requirements.txt" in your shell
 import os
 from requests import get
 
