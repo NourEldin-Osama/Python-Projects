@@ -6,6 +6,7 @@ output = os.popen("speedtest-cli").read().split("\n")
 if len(output) == 2:
     print("Warning")
     print("No Internet Connection, Make Sure There Is An Internet Connection And Try Again.")
+    
 else:
     isp = output[1][13:output[1].find("(") - 1]  # Isp
     ip = output[1].split("(")[1][:-4]  # Ip
